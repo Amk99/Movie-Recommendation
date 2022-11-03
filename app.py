@@ -29,7 +29,7 @@ sim = pickle.load(open('sim.pkl','rb'))
 movies = pd.DataFrame(movies_dict)
 movies_list = movies['title'].values
 
-st.title('Movie and Book Recommendations')
+st.title('Movie Recommendations')
 
 selected_movie = st.selectbox(
      'Tell us the movie that you liked',
